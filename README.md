@@ -218,7 +218,7 @@ The library depends on a `Haversine` helper (`Haversine.h`) that provides `dtor`
 - **Hard-coded parameters.** `R`, `Q_var`, `F`, `B` and `H` are redefined at every call and cannot be changed without editing the source.
 - **Heading is an input, not computed.** The bearing computed from the GPS points (`Haversine().calcBearing`) is commented out; the caller must provide a good heading. A noisy compass directly degrades the result.
 - **Documentation mismatch.** An earlier version of the README mentions a `begin` function. The current code uses the constructor described above.
-- **Code style.** The author notes that the library does not follow best practices: long function, repeated blocks for North and East, and leftover commented debug code.
+- **Code style.** The library does not follow best practices: long function, repeated blocks for North and East, and leftover commented debug code.
 
 ---
 
