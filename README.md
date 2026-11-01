@@ -204,7 +204,7 @@ The library depends on a `Haversine` helper (`Haversine.h`) that provides `dtor`
    sentence=Kalman filter for GPS positions with dead-reckoning fallback.
    paragraph=Fuses GPS, acceleration and heading to filter latitude and longitude.
    category=Signal Input/Output
-   url=https://github.com/<your-user>/GPSKalmanFilter
+   url=https://github.com/gabriellopes007/GPSKalmanFilter
    architectures=*
    ```
 
